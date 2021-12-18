@@ -1,0 +1,166 @@
+.head-image {
+  max-width: 100vw;
+  max-height: 100vh;
+  object-fit: cover;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  min-height: 100vh;
+}
+* {
+  font-family: "Open Sans", sans-serif;
+}
+h1 {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 5.70937px;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+h1
+span {
+  position: relative;
+  z-index: 1;
+  color: white;
+ 
+}
+h2{
+  font-family: "Bebas Neue", cursive;
+  font-size: 18px;
+
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 82vh;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+ul.menu {
+  display: flex;
+  margin: 0;
+}
+li {
+  padding: 10px;
+  list-style: none;
+}
+br {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+}
+.story {
+  display: flex;
+}
+.storytext,
+.wedo {
+  flex: 1;
+}
+.wedo {
+  display: flex;
+}
+.weplan {
+  background-image: url("weplan.png");
+  margin-left: 30px;
+}
+.wemanage {
+  background-image: url("wemanage.png");
+}
+.webuild {
+  background-image: url("webuild.png");
+}
+.weplan,.wemanage,.webuild {
+  line-height: 29px;
+  display: flex;
+  letter-spacing: 0.1875px;
+  color: white;
+  font-size: 24px;
+  flex: 1;
+  padding: 20px;
+  margin-left: 18px;
+}
+h4 {
+margin: 0;
+}
+.article.article
+{
+max-width: 941px;
+margin: auto;
+}
+.capabilities {
+  margin-top: 120px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.span {
+  letter-spacing: 4px;
+  font-size: 11px;
+  padding: 20px;
+  margin-left: 50px;
+  align-items: center;
+}
+.capabilities-text {
+width: 40%;
+}
+.allservices {
+    background-color: blue;
+    padding:11px 29px;
+    color:white;
+}
+.features{
+  display: flex;
+  justify-content: space-between;
+}
+.feature{
+  padding: 38px 22px 39px 23px;
+  border: 1px solid #E6E6E6;
+  margin: 14px;
+}
+.enquiry-bg{
+  height: 499px;
+  margin-top:0px;
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  max-width: 100vw;
+  left: 0px;
+  bottom: 0px;
+  position:absolute;
+  z-index: -1;
+}
+.getintouch {
+  background-color: blue;
+  padding:11px 29px;
+  color:white;
+  align-items: center;
+}
+.enquiry{
+  margin-top: 20px;
+  align-items: center;
+  position: relative;
+}
+.enquiry-text{
+  font-size: 30px;
+ 
+}
+.article-enquiry{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 232px;
+}
