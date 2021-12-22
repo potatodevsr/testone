@@ -9,6 +9,7 @@
   top: 0;
   z-index: -1;
   min-height: 100vh;
+  color: white;
 }
 * {
   font-family: "Open Sans", sans-serif;
@@ -18,19 +19,17 @@ h1 {
   letter-spacing: 5.70937px;
   font-size: 60px;
   line-height: 70px;
+  color: white;
 }
 
-h1
-span {
+h1 span {
   position: relative;
   z-index: 1;
   color: white;
- 
 }
-h2{
+h2 {
   font-family: "Bebas Neue", cursive;
   font-size: 18px;
-
 }
 
 .wrapper {
@@ -41,15 +40,18 @@ h2{
   min-height: 82vh;
   padding-top: 40px;
   padding-bottom: 70px;
+  color: white;
 }
 .navigation {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  
 }
 ul.menu {
   display: flex;
   margin: 0;
+  text-decoration: none;
 }
 li {
   padding: 10px;
@@ -67,21 +69,31 @@ br {
 .storytext,
 .wedo {
   flex: 1;
+  text-decoration: none;
 }
 .wedo {
   display: flex;
+  text-decoration: none;
 }
 .weplan {
   background-image: url("weplan.png");
   margin-left: 30px;
+  text-decoration: none;
 }
 .wemanage {
   background-image: url("wemanage.png");
+  text-decoration: none;
 }
 .webuild {
   background-image: url("webuild.png");
+  text-decoration: none;
 }
-.weplan,.wemanage,.webuild {
+a{
+ text-decoration: none;
+}
+.weplan,
+.wemanage,
+.webuild {
   line-height: 29px;
   display: flex;
   letter-spacing: 0.1875px;
@@ -90,14 +102,14 @@ br {
   flex: 1;
   padding: 20px;
   margin-left: 18px;
+    text-decoration: none;
 }
 h4 {
-margin: 0;
+  margin: 0;
 }
-.article.article
-{
-max-width: 941px;
-margin: auto;
+.article.article {
+  max-width: 941px;
+  margin: auto;
 }
 .capabilities {
   margin-top: 120px;
@@ -113,54 +125,155 @@ margin: auto;
   align-items: center;
 }
 .capabilities-text {
-width: 40%;
+  width: 40%;
 }
 .allservices {
-    background-color: blue;
-    padding:11px 29px;
-    color:white;
+  background-color: blue;
+  padding: 11px 29px;
+  color: white;
 }
-.features{
+.features {
   display: flex;
   justify-content: space-between;
 }
-.feature{
+.feature {
   padding: 38px 22px 39px 23px;
-  border: 1px solid #E6E6E6;
+  border: 1px solid #e6e6e6;
   margin: 14px;
 }
-.enquiry-bg{
+.enquiry-bg {
   height: 499px;
-  margin-top:0px;
+  margin-top: 0px;
   background-size: cover;
   object-fit: cover;
   width: 100%;
   max-width: 100vw;
   left: 0px;
   bottom: 0px;
-  position:absolute;
+  position: absolute;
   z-index: -1;
 }
 .getintouch {
   background-color: blue;
-  padding:11px 29px;
-  color:white;
+  padding: 11px 29px;
+  color: white;
   align-items: center;
 }
-.enquiry{
+.enquiry {
   margin-top: 20px;
   align-items: center;
   position: relative;
 }
-.enquiry-text{
+.enquiry-text {
   font-size: 30px;
- 
 }
-.article-enquiry{
-  display:flex;
+.article-enquiry {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-top: 120px;
   padding-bottom: 232px;
+}
+.signup-text {
+  background-color: black;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  padding: 30px 30px;
+}
+.newslettersignup {
+  color: white;
+  font-size: 22px;
+}
+.test {
+  background-color: white;
+  color: black;
+  align-items: baseline;
+  margin-left: 30px;
+  padding: 11px 98px 11px 16px;
+}
+.signup {
+  background-color: blue;
+  padding: 11px 29px;
+  color: white;
+}
+.footer {
+  background-color: black;
+  color: white;
+}
+.logo {
+  margin-top: 20px;
+  color: white;
+}
+.company {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex: auto;
+  max-width: 941px;
+  margin: auto;
+  font-size: 11px;
+}
+.features-png {
+  justify-content: space-between;
+  flex: none;
+  border: none;
+  padding: 0;
+  border: none;
+}
+.flex-1 {
+  flex: 1;
+}
+.flex-2 {
+  flex: 2;
+  
+}
+.flex-between{
+  display: flex;
+  justify-content: space-between;
+}
+.contactus{
+  justify-content: center;
+}
+
+.menu ul, .menu ul li {
+  padding: 0;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.menu {
+  padding: 0 10px;
+}
+.footer-heading
+{
+  margin: 0;
+  font-size: 11px;
+}
+.footer-logo{
+  margin-top: 20px;
+  margin-bottom: 17px;
+}
+.baker{
+  margin-top: 15px;
+  line-height: 16px;
+}
+.menu ul li{
+  line-height: 25px;
+  margin-right: 20px;
+}
+.footer-colum{
+  margin-left: 71px;
+}
+.flex-item{
+  padding-top: 0%;
+}
+.container{
+  display: flex;
+  align-items:flex-start;
 }
